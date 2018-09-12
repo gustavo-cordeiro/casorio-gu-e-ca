@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Criar Lista de Pedidos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        form div {
+            margin: 20px;
+        }
+        input {
+            display: block;
+            margin: 5px 0px;
+            padding: 10px;
+            width: 70%;
+            border: 1px solid black;
+        }
+
+        input[type="submit"] {
+            line-height: 2;
+            background-color: cornflowerblue;
+            color: white;
+        }
+
+        textarea {
+            padding: 10px;
+            display: block;
+            width: 70%;
+            height: 100px;
+        }
+
+
+        #parsedGifts {
+            width: 90%;
+            min-height: 200px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="url_imagem">nome do arquivo da imagem</label>
+            <input type="text" name="url_imagem" id="url_imagem" placeholder="imagem1.jpg">
+        </div>
+
+        <div>
+            <label for="link_compra">link do mercado pago</label>
+            <input type="text" name="link_compra" id="link_compra" placeholder="https://www.mercadopago.com/mlb/checkout...">
+        </div>
+
+        <div>
+            <label for="nome_presente">Nome do Presente</label>
+            <input type="text" name="nome_presente" id="nome_presente" placeholder="Jantar Romantico - 200$">
+        </div>
+
+        <div>
+            <label for="descricao_presente">Nome do Presente</label>
+            <textarea name="descricao_presente" id="descricao_presente" placeholder="Jantar Romantico - muito gostoinho pra gente se amar"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="enviar"/>
+        </div>
+    </form>
+    <textarea id='parsedGifts' disabled></textarea>
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+<script>
+    const allGifts = [];
+    $(() => {
+        const $form = $('form');
+        const $parsedGifts = $('#parsedGifts');
+
+        $form.submit(event => {
+            const serilizedForm = $form.serializeArray();
+            const giftData = {};
+
+            serilizedForm.forEach(({name, value}) => {
+                giftData[name] = value;
+            });
+
+            allGifts.push(giftData);
+
+            const parsedGifts = JSON.stringify({allGifts});
+
+            $parsedGifts.val(parsedGifts);
+
+            event.preventDefault();
+            return false;
+        });
+    })
+</script>
+</html>
+
