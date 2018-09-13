@@ -49,26 +49,24 @@ function renderGift(data) {
   return '<div class="wedding-item col-md-4 animation fadeIn">\
     <div class="photo-item">\
       <img src="./images/presentes/'+data.url_imagem+'" alt="" class="hover-animation image-zoom-in"/>\
-      <div class="layer wh95 hidden-black-overlay hover-animation fade-in"></div>\
       <div class="layer wh95 border-photo-caption fade-out"></div>\
-      <div class="layer wh100 hidden-link hover-animation delay1 fade-in">\
-        <div class="alignment">\
-          <div class="v-align center-middle">\
-            <a href="'+data.link_compra+'" class="de-button outline small">\
-              Dar de presente: '+data.nome_presente+'\
-            </a>\
-          </div>\
-        </div>\
-      </div>\
     </div>\
     <div class="title-excerpt">\
-      <h3>\
-        <a href="./'+data.link_compra+'">'+data.nome_presente+'</a>\
+      <h3 class="text-center">\
+        <a>'+data.nome_presente+'</a>\
       </h3>\
-      <p>'+data.descricao_presente+'</p>\
-      <a href="'+data.link_compra+'" class="de-button small">\
-        Dar de presente: '+data.nome_presente+'\
-      </a>\
+      <div class="row">\
+        <div class="col-md-6 text-center">\
+          <a href="https://pag.ae/bhD2CcH" target="_blanck" class="de-button small" style="display: block; width: 100%">\
+            Contribuir\
+          </a>\
+        </div>\
+        <div class="col-md-6 text-center">\
+          <a href="'+data.link_compra+'" target="_blanck" class="de-button small" style="display: block; width: 100%">\
+            Comprar\
+          </a>\
+        </div>\
+      </div>\
     </div>\
   </div>'
 };
