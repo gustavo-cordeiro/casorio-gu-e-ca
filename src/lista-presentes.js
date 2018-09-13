@@ -1,23 +1,9 @@
-var gifts = [
-  {
-    url_imagem: 'presente1.jpg',
-    link_compra: 'https://www.mercadopago.com/mlb/checkout/start?pref_id=28747259-2fe481f9-a178-4c04-8080-a1e7de2de1d3',
-    nome_presente: 'Presente 1',
-    descricao_presente: 'Primeiro Presente',
-  },
-  {
-    url_imagem: 'presente2.jpg',
-    link_compra: 'https://www.mercadopago.com/mlb/checkout/start?pref_id=28747259-2fe481f9-a178-4c04-8080-a1e7de2de1d3',
-    nome_presente: 'Presente 2',
-    descricao_presente: 'Segundo Presente',
-  },
-  {
-    url_imagem: 'presente3.jpg',
-    link_compra: 'https://www.mercadopago.com/mlb/checkout/start?pref_id=28747259-2fe481f9-a178-4c04-8080-a1e7de2de1d3',
-    nome_presente: 'Presente 3',
-    descricao_presente: 'Terceiro Presente',
-  },
-];
+var gifts = [{
+  "url_imagem": "Lixeira.jpg",
+  "link_compra": "https://www.etna.com.br/etna/p/lixeira-pedal-aco-5litros/047414?skuId=0310852 ",
+  "nome_presente": "Lixeira - R$99,00",
+  "descricao_presente": ""
+}];
 
 
 
