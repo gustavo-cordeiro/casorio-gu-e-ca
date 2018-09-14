@@ -82,6 +82,48 @@ var gifts = [
     "link_compra": "https://www.etna.com.br/etna/p/aparador-panela-losango-d20cm/056345?skuId=0420409",
     "nome_presente": "Aparador de panela - R$ 29.90",
     "descricao_presente": ""
+  },
+  {
+     "url_imagem":"ConjuntoBolo.jpg",
+     "link_compra":"https://www.pontofrio.com.br/UtilidadesDomesticas/SobremesaChaeCafe/Jogosparasobremesa/conjunto-para-bolo-inox-13-pcs-9092574.html?gclid=CjwKCAjwlejcBRAdEiwAAbj6KZ8iqAdYO4Ct8OJ-iR8OduLAYPqax7OMh-V5Wj8knCWlfwhM3LaUeRoCH9kQAvD_BwE&utm_medium=cpc&utm_source=gp_pla&IdSku=9092574&idLojista=19456&s_kwcid=AL!427!3!272492722496!!!g!453446264303!&utm_campaign=Utld_Shopping&ef_id=WjmZQwAAANodVQ2Z:20180913211949:s",
+     "nome_presente":"Conjunto para bolo - R$ 55,90",
+     "descricao_presente":""
+  },
+  {
+     "url_imagem":"JogoSobremesa.jpg ",
+     "link_compra":"https://www.extra.com.br/UtilidadesDomesticas/SobremesaChaeCafe/pratosdesobremesa/Jogo-Sobremesa-Aco-Inox-12-pecas-Tramontina-10898793.html?rectype=p1_op_s6",
+     "nome_presente":"Jogo de Sobremesa - R$80,89",
+     "descricao_presente":""
+  },
+  {
+     "url_imagem":"Sanduicheira.jpg",
+     "link_compra":"https://www.pontofrio.com.br/Eletroportateis/GrilleSanduicheiras/sanduicheiragrill/sanduicheira-grill-press-britania-inox-7307392.html?gclid=CjwKCAjwlejcBRAdEiwAAbj6KcM3SM8xumj4OW_GXtMTZit1i29I3pF7wNMz3jZYYpHHonIROx6vyRoCNDgQAvD_BwE&utm_medium=cpc&utm_source=gp_pla&IdSku=7307392&idLojista=16&s_kwcid=AL!427!3!97121727418!!!g!423211136853!&utm_campaign=Elpo_Shopping&ef_id=WjmZQwAAANodVQ2Z:20180913214911:s",
+     "nome_presente":"Sanduicheira - R$ 79,90",
+     "descricao_presente":""
+  },
+  {
+     "url_imagem":"Torradeira.jpg",
+     "link_compra":"https://www.casasbahia.com.br/Eletroportateis/Torradeiras/Torradeira-French-Toast-Philco-com-8-Niveis-de-Tostagem-Inox-Preto-11200657.html?gclid=CjwKCAjwlejcBRAdEiwAAbj6Kaw7vzvzZC7aiVHsd3nvimAebnt-matx6NhzxKCByoNRje1STs89FxoC-wsQAvD_BwE&utm_medium=Cpc&utm_source=GP_PLA&IdSku=11200705&idLojista=10037&s_kwcid=AL!427!3!95318448515!!!g!410417765732!&utm_campaign=Elpo_Shopping&ef_id=WjmZQwAAANodVQ2Z:20180913220209:s",
+     "nome_presente":"Torradeira - R$ 89,90",
+     "descricao_presente":""
+  },
+  {
+     "url_imagem":"JogoCopos.jpg",
+     "link_compra":"https://www.magazineluiza.com.br/conjunto-de-copos-6-pecas-nadir-long-drink-76290200533587/p/142226000/ud/coco/?partner_id=4661&utm_source=google&seller_id=magazineluiza&product_group_id=436150796631&ad_group_id=62941968910&aw_viq=pla&gclid=CjwKCAjwlejcBRAdEiwAAbj6KWjXfH0jVup24t5MyBOhuQ6TAZelTvPqQU0rh2xtGVDWwYtnzkRuhhoCnVEQAvD_BwE",
+     "nome_presente":"Jogo de Copos - R$ 24,90",
+     "descricao_presente":""
+  },
+  {
+     "url_imagem":"ToalhaMesaGeo.jpg",
+     "link_compra":"https://www.riachuelo.com.br/toalha-de-mesa-geometrica-1-4-x-1-4-m-12281131001_sku/?general_color=BRANCO&tamanho=U&gclid=CjwKCAjwlejcBRAdEiwAAbj6KWkX5BgSmEaQg6RRdhxSgiUFJjdY9_xm2_XCBaehb-iYLTKndzUC1BoCUogQAvD_BwE",
+     "nome_presente":"Toalha de Mesa Geo. - R$ 59,90",
+     "descricao_presente":""
+  },
+  {
+     "url_imagem":"ToalhaMesaQua.jpg",
+     "link_compra":"https://www.extra.com.br/CamaMesaBanho/Mesa/ToalhaQuadrada/toalha-de-mesa-quadrada-jacquard-lumina-ii-dourado-6656957.html?gclid=CjwKCAjwlejcBRAdEiwAAbj6KSf3PjkRZ4oVmtNmAP_HRzW3SmWTlb8Rrs86BIfL9i0ucKOsOZa0ehoCv-gQAvD_BwE&utm_medium=cpc&utm_source=gp_pla&IdSku=6656957&idLojista=15338&s_kwcid=AL!427!3!94837823667!!!g!432716950791!&utm_campaign=CAMEBA_Shopping&ef_id=WjmZQwAAANodVQ2Z:20180913224021:s",
+     "nome_presente":"Toalha de Mesa - R$ 53,90",
+     "descricao_presente":""
   }
 ];
 
