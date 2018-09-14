@@ -124,6 +124,30 @@ var gifts = [
      "link_compra":"https://www.extra.com.br/CamaMesaBanho/Mesa/ToalhaQuadrada/toalha-de-mesa-quadrada-jacquard-lumina-ii-dourado-6656957.html?gclid=CjwKCAjwlejcBRAdEiwAAbj6KSf3PjkRZ4oVmtNmAP_HRzW3SmWTlb8Rrs86BIfL9i0ucKOsOZa0ehoCv-gQAvD_BwE&utm_medium=cpc&utm_source=gp_pla&IdSku=6656957&idLojista=15338&s_kwcid=AL!427!3!94837823667!!!g!432716950791!&utm_campaign=CAMEBA_Shopping&ef_id=WjmZQwAAANodVQ2Z:20180913224021:s",
      "nome_presente":"Toalha de Mesa - R$ 53,90",
      "descricao_presente":""
+  },
+  {
+   "url_imagem":"JogoCopos.jpg",
+   "link_compra":"https://www.magazineluiza.com.br/conjunto-de-copos-6-pecas-nadir-long-drink-76290200533587/p/142226000/ud/coco/?partner_id=4661&utm_source=google&seller_id=magazineluiza&product_group_id=436150796631&ad_group_id=62941968910&aw_viq=pla&gclid=CjwKCAjwlejcBRAdEiwAAbj6KWjXfH0jVup24t5MyBOhuQ6TAZelTvPqQU0rh2xtGVDWwYtnzkRuhhoCnVEQAvD_BwE",
+   "nome_presente":"Jogo de Copos - R$ 24,90",
+   "descricao_presente":""
+  },
+  {
+     "url_imagem":"JogoCama2.jpg",
+     "link_compra":"https://www.riachuelo.com.br/jogo-de-cama-casal-malha-100-algod-o-12474860001_sku/?general_color=BRANCO&gclid=CjwKCAjwlejcBRAdEiwAAbj6KYCO3hF6zC0aPJydEkMqMmunNgfdDXWrZfXgeI8qUr5U0zt7_X-e6hoCCQEQAvD_BwE",
+     "nome_presente":"Jogo de cama  - R$ 39,90",
+     "descricao_presente":""
+  },
+  {
+     "url_imagem":"Travesseiro.jpg",
+     "link_compra":"https://www.riachuelo.com.br/travesseiro-ultracomfort-12152412001_sku/?general_color=BRANCO&gclid=CjwKCAjwlejcBRAdEiwAAbj6Ke4BiGudDqLAjfqFGN6jMkju4QatnhK955_dqAmZfwAO4dkUc6TuaBoCJgUQAvD_BwE",
+     "nome_presente":"Travesseiro - R$ 99,90",
+     "descricao_presente":""
+  },
+  {
+     "url_imagem":"PanosPrato.jpg",
+     "link_compra":"https://www.americanas.com.br/produto/36708948/kit-pano-de-prato-c-barrado-tecido-100-algodao-pe-de-galinha-15-pecas?WT.srch=1&epar=bp_pl_00_go_cmb_todas_geral_gmv&gclid=CjwKCAjwlejcBRAdEiwAAbj6KWyhj0qBcJ6s119EowirfckmtSnInzslfHEQqJnLNwtRUmQCQpa3ehoCIgMQAvD_BwE&opn=YSMESP&sellerId=12787407000190",
+     "nome_presente":"Kit Pano de Prato - R$65,00",
+     "descricao_presente":""
   }
 ];
 
